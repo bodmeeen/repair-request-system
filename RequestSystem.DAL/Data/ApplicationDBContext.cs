@@ -61,7 +61,7 @@ namespace RequestSystem.DAL.Data
                     Brand = "Samsung",
                     Model = "Galaxy S21",
                     SerialNumber = "SN654321",
-                    UserId = 2
+                    UserId = 1
                 }
             );
 
@@ -72,7 +72,7 @@ namespace RequestSystem.DAL.Data
                     Description = "Screen not working",
                     Status = RepairStatus.Completed,
                     DeviceId = 1,
-                    UserId = 2
+                    UserId = 1
                 },
                 new RepairRequest
                 {
@@ -97,7 +97,7 @@ namespace RequestSystem.DAL.Data
                     Id = 2,
                     Text = "Battery replaced, testing now",
                     RepairRequestId = 2,
-                    UserId = 1
+                    UserId = 2
                 }
             );
         }
